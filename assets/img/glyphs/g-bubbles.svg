@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="glyph-svg">
+  <circle cx="50" cy="50" r="47" fill="#fff" stroke="#000" stroke-width="4"/>
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20,26 H54 V46 H36 L28,54 V46 H20 Z"/><path d="M46,50 H80 V70 H72 V78 L64,70 H46 Z"/>
+  </g>
+</svg>

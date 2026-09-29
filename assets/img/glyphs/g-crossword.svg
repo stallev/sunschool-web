@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="glyph-svg">
+  <circle cx="50" cy="50" r="47" fill="#fff" stroke="#000" stroke-width="4"/>
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="24" y="43" width="13" height="13"/><rect x="37" y="43" width="13" height="13"/><rect x="50" y="43" width="13" height="13"/><rect x="63" y="43" width="13" height="13"/><rect x="37" y="30" width="13" height="13"/><rect x="37" y="56" width="13" height="13"/>
+  </g>
+</svg>
