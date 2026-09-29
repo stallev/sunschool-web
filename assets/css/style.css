@@ -481,9 +481,10 @@ a.topic .topic__tag { background: var(--ink); color: var(--bg); }
 @media (min-width: 720px) { .xw-wrap { grid-template-columns: auto 1fr; align-items: start; gap: 2rem; } .xw { margin: 0; } }
 
 /* слоган */
-.slogan { margin-top: 2rem; text-align: center; }
-.slogan p { max-width: 26rem; margin: 0 auto; font-family: var(--ps); font-weight: 700; font-size: clamp(1.1875rem, 4.6vw, 1.5rem); line-height: 1.2; letter-spacing: -0.005em; }
-.slogan img { width: 100%; height: auto; margin-top: 0.75rem; filter: var(--icon-filter); }
+.slogan { margin-top: 1rem; display: flex; align-items: center; justify-content: center; gap: 1rem; text-align: left; }
+.slogan p { margin: 0; font-family: var(--ps); font-weight: 700; font-size: clamp(1.1875rem, 4.6vw, 1.5rem); line-height: 1.2; letter-spacing: -0.005em; }
+.slogan img { flex: none; width: 5.5rem; height: auto; filter: var(--icon-filter); }
+@media (min-width: 720px) { .slogan img { width: 6.5rem; } }
 
 /* пятница, суббота, стихи */
 .fri { display: grid; gap: 1rem; }
