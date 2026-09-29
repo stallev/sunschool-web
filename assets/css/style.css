@@ -354,20 +354,12 @@ a.topic .topic__tag { background: var(--ink); color: var(--bg); }
 
 /* рассказ */
 .story h2 { margin: 0 0 1rem; font-family: var(--ps); font-size: 1.375rem; letter-spacing: 0.03em; text-transform: uppercase; }
-.scene { width: min(100%, 17rem); margin: 0 auto 1.25rem; background: #fff; border: 2px solid #000; border-radius: 6px; padding: 0.4rem; }
-.scene img { width: 100%; height: auto; aspect-ratio: 1; }
-.scene--pending { display: grid; align-content: center; justify-items: center; gap: 0.5rem; aspect-ratio: 1; padding: 1rem; border: 2px dashed var(--rule); background: transparent; text-align: center; color: var(--ink-3); }
-.scene--pending svg { width: 36px; height: 36px; stroke: currentColor; }
-.scene--pending strong { font-size: 0.9375rem; color: var(--ink-2); }
-.scene--pending small { font-size: 0.75rem; line-height: 1.35; }
 .prose { font-family: var(--serif); font-size: 1.125rem; line-height: 1.7; }
 .prose p + p { margin-top: 0.7rem; }
 .prose p.dlg { margin-top: 0.45rem; }
 @media (min-width: 640px) {
-  .scene { float: left; width: 15rem; margin: 0.25rem 1.6rem 0.8rem 0; }
   .prose { font-size: 1.1875rem; }
 }
-.story::after { content: ""; display: block; clear: both; }
 
 .thought { margin-top: 1.5rem; }
 .thought .prose p:first-child { margin-top: 0; }
