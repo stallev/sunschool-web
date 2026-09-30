@@ -126,12 +126,7 @@ h3 { font-size: 1.3125rem; line-height: 1.2; letter-spacing: -0.012em; }
   .nav__menu a { padding: 0; border: 0; font-size: 0.875rem; font-weight: 500; letter-spacing: 0; color: var(--ink-2); transition: color 0.15s; }
   .nav__menu a:hover { color: var(--ink); }
   .nav__label { display: none; }
-  .nav__lessons { display: flex; align-items: center; gap: 0.35rem; padding-left: 1.6rem; margin-left: 0.2rem; border-left: 1px solid var(--line); }
-  .nav__lesson span { display: none; }
-  .nav__lesson { gap: 0 !important; }
-  .nav__lesson b { width: 1.85rem; height: 1.85rem; font-size: 0.875rem; }
-  .nav__lesson:hover b { background: var(--plate); }
-  .nav__lesson[aria-current="page"]:hover b { background: var(--ink); }
+  .nav__lessons { display: none; }
 }
 
 /* ---------- кнопки ---------- */
