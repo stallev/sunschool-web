@@ -484,6 +484,14 @@ a.topic .topic__tag { background: var(--ink); color: var(--bg); }
 /* пятница, суббота, стихи */
 .fri { display: grid; gap: 1rem; }
 .fri__item p { font-size: 1.0625rem; line-height: 1.4; }
+.fri__sub { margin-top: 0.4rem; }
+.fri__chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.3rem 0; }
+.fri__chip { border: 2px solid var(--ink); border-radius: 8px; padding: 0.15rem 0.55rem; font-size: 0.9rem; }
+.fri__case { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; margin: 0.35rem 0; font-size: 1rem; }
+.fri__case .field { flex: none; width: 3.6rem; text-align: center; }
+.fri__quote { margin: 0.4rem 0; padding: 0.5rem 0.9rem; border-left: 4px solid var(--ink); font-style: italic; }
+.fri__words { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 0.6rem; margin: 0.4rem 0; }
+.fri__words label { display: grid; gap: 0.2rem; }
 .fri__item p b { font-family: var(--ps); }
 .fri__item p span { color: var(--ink-3); }
 .sat { display: grid; gap: 1.5rem; }
@@ -535,3 +543,6 @@ a.topic .topic__tag { background: var(--ink); color: var(--bg); }
   .sheet { break-inside: avoid-page; box-shadow: none; border: 1px solid #000; }
   .js .reveal { opacity: 1; transform: none; }
 }
+.evid { display: grid; grid-template-columns: auto auto 1fr auto; gap: 0.6rem; align-items: start; margin: 0.6rem 0; }
+.evid__s { font-style: italic; padding-top: 0.2rem; }
+.qa-pair { display: grid; grid-template-columns: auto 1fr; gap: 0.7rem; margin: 0.8rem 0; }
